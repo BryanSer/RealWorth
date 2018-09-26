@@ -1,0 +1,37 @@
+# 购买者条约:
+# 作者: Brayn_lzh
+# QQ: 390807154
+# 保修规则:
+#   插件永久修复错误(在合理程度内 非买方误操作 非服务端本身问题)
+#   包1年内MC版本更替修复
+#   对修改过代码的不保修
+#   需要保修时请说明问题 务必附上报错内容
+#   若需要添加新功能将进行最低量的收费
+# 你可以:
+#   1.声明这个插件是私用的
+#   2.举报他人服务器剽窃该插件
+#   3.利用本插件盈利
+#   4.修改本插件代码
+# 你不可以:
+#   1.声明这个插件是你写的
+#   2.不能通过卖本插件盈利
+# 有可能在不通知您的情况下对本插件进行修改后卖给他人(一般都会通知 并且将返回部分钱)
+# 对应不在本条约里的事项请向我联系
+name: RealWorth
+authors: ['Bryan_lzh']
+main: Br.RealWorth.Main
+description: '开发者QQ:390807154'
+depend: [Essentials,BrAPI]
+version: 1.0
+
+commands:
+    RealWorth:
+        aliases: [rw]
+        description: 主命令
+        usage: |
+            §6/<command> sell >> 出售手上物品
+            §6/<command> info >> 查看手上物品价格
+            §c/<command> total >> 查看收购池
+            §c/<command> settotal [值] >> 设置收购池(注意 由于计算偏差 可能无法完美的设置到指定值)
+            §c/<command> set [值] >> 设置手上物品的售价
+            
